@@ -1,1 +1,0 @@
-# winner-display-table
