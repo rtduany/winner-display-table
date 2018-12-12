@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: arial, "courier new", serif;
+}
+h1 {
+	font-size: 450%;
+	font-weight:100;
+}
+#nav-bar {
+	background-color: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+nav {
+	width: 58%;
+	margin: 0 auto;
+	padding: 20px 10px 20px 10px;
+}
+header nav a {
+	text-decoration-line: none;
+	text-align: center;
+	border: 1px solid grey;
+	margin-right: 20px;
+	padding: 10px 20px 10px 20px;
+	color: white;
+	font-size: 130%;
+}
+nav a:hover {
+	background-color: #1a1a1a;
+}
+.active {
+	background-color: #1a1a1a;
+	border: 1px dotted white;
+}
