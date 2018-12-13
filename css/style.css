@@ -169,3 +169,34 @@ nav a:hover {
 	color: white;
 	vertical-align: middle;
 }
+/* ********************************************************** 4-column section styles ***************************************************** */
+#section5 {
+	height: 520px;
+	margin: 0 auto;
+	border-spacing: 20px;
+/*	margin-bottom: 50px;*/
+}
+.four-cols {
+	background-color: lightgray;
+	display: table-cell;
+	height: inherit;
+}
+.four-cols h3 {
+	margin: 30px 0;
+	text-align: center;
+}
+.four-cols p {
+	margin: 0 40px 15px;
+}
+.four-cols button {
+	margin: 0 20px 20px 60px;
+	width: 140px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 130%;
+	background-color: whitesmoke;
+}
+.four-cols img {
+	resize: horizontal;
+	margin: 0;
+}
