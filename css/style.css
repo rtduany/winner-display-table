@@ -46,8 +46,8 @@ nav a:hover {
 	display: table;
 	width: 86.6%;
 	border-collapse: separate;
-/*	margin-bottom: 62px;*/
-	
+	margin-top: 62px;
+	margin-bottom: 62px;
 }
 .row {
 	display: table-row;
@@ -59,6 +59,7 @@ nav a:hover {
 #section1 {
 	background-image: url(../img/bg-1.jpg);
 	background-position: bottom left;
+	background-attachment: fixed;
 	height: 560px;
 }
 .row-fluid {
@@ -152,4 +153,19 @@ nav a:hover {
 	border-radius: 10px;
 	font-size: 130%;
 	background-color: whitesmoke;
+}
+/* ******************************************************* Serive column or section4 styles *********************************************** */
+#section4 {
+	background-image: url(../img/bg-2.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	height: 400px;
+}
+.service-col {
+	width: 27%;
+}
+#mid-service-col {
+	text-align: center;
+	color: white;
+	vertical-align: middle;
 }
