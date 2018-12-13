@@ -44,7 +44,7 @@ nav a:hover {
 }
 .container {
 	display: table;
-	width: 88%;
+	width: 86.6%;
 	border-collapse: separate;
 /*	margin-bottom: 62px;*/
 	
@@ -55,7 +55,7 @@ nav a:hover {
 .col {
 	display: table-cell;
 }
-/* ***************************** front-page styles ******************* */
+/* *************************************************************** front-page styles ****************************************************** */
 #section1 {
 	background-image: url(../img/bg-1.jpg);
 	background-position: bottom left;
@@ -76,10 +76,12 @@ nav a:hover {
 	height: 520px;
 	margin: 0 auto;
 	border-spacing: 10px;
+	margin-bottom: 50px;
 }
 .three-cols {
+	background-color: lightgray;
 	display: table-cell;
-	column-width: 280px;
+	column-width: 270px;
 	height: inherit;
 }
 .three-cols h3 {
@@ -89,7 +91,7 @@ nav a:hover {
 	margin: 0 10px;
 }
 .three-cols button {
-	margin: 40px 120px;
+	margin: 40px 90px;
 	width: 160px;
 	height: 50px;
 	border-radius: 10px;
@@ -98,11 +100,56 @@ nav a:hover {
 }
 #green-btn {
 	background-color: green;
-	
 }
 #blue-btn {
 	background-color: blue;
 }
 #red-btn {
 	background-color: red;
+}
+#bootstrap h3 {
+	color: green;
+}
+#responsive h3 {
+	color: blue;
+}
+#parallax h3 {
+	color: grey;
+}
+/* ************************************************************ 2-column section styles *************************************************** */
+#section3 {
+	height: 620px;
+	margin: 0 auto;
+	border-spacing: 10px;
+}
+.two-cols {
+	background-color: lightgray;
+	display: table-cell;
+	column-width: 350px;
+	height: inherit;
+}
+.two-cols-space {
+	display: table-cell;
+	column-width: 20px;
+	height: inherit;
+}
+.two-cols img {
+	resize: horizontal;
+	width: 542px;
+	margin: 0;
+}
+.two-cols h3 {
+	margin-top: 30px;
+	text-align: center;
+}
+.two-cols p {
+	margin: 30px 20px 0 20px;
+}
+.two-cols button {
+	margin: 40px 30px 30px 300px;
+	width: 160px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 130%;
+	background-color: whitesmoke;
 }
