@@ -169,12 +169,11 @@ nav a:hover {
 	color: white;
 	vertical-align: middle;
 }
-/* ********************************************************** 4-column section styles ***************************************************** */
+/* ********************************************************* 4-column section styles **************************************************** */
 #section5 {
 	height: 520px;
 	margin: 0 auto;
-	border-spacing: 20px;
-/*	margin-bottom: 50px;*/
+	border-spacing: 30px;
 }
 .four-cols {
 	background-color: lightgray;
@@ -199,4 +198,24 @@ nav a:hover {
 .four-cols img {
 	resize: horizontal;
 	margin: 0;
+}
+/* ********************************************************* 4-column section styles **************************************************** */
+#section6 {
+	margin: 0 auto;
+	margin-top: 60px;
+	background-color: lightgray;
+}
+#big-img-btn {
+	margin: 20px 0 40px 30px;
+	width: 160px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 130%;
+	background-color: whitesmoke;
+}
+.one-big-col h3 {
+	padding: 40px 0 0 30px;
+}
+.one-big-col p {
+	margin: 10px 30px 20px 30px;
 }
