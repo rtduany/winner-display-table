@@ -154,7 +154,7 @@ nav a:hover {
 	font-size: 130%;
 	background-color: whitesmoke;
 }
-/* ******************************************************* Serive column or section4 styles *********************************************** */
+/* ****************************************************** Serive column or section4 styles ********************************************** */
 #section4 {
 	background-image: url(../img/bg-2.jpg);
 	background-position: center;
@@ -218,4 +218,73 @@ nav a:hover {
 }
 .one-big-col p {
 	margin: 10px 30px 20px 30px;
+}
+/* ******************************************************** form-column section styles ************************************************** */
+#section7 {
+	background-image: url(../img/bg-3.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	backface-visibility: visible;
+	height: 620px;
+	margin-top: 60px;
+}
+.contact-txt {
+	text-align: center;
+	width: 43%;
+	margin: 0 auto;
+	backface-visibility: visible;
+}
+.contact-txt h2 {
+	color: white;
+	font-size: 250%;
+	margin-bottom: 20px;
+}
+.contact-txt p {
+	background-color: rgb(255, 255, 254, 0.4);
+	backface-visibility: visible;
+	border-radius: 5px;
+}
+form {
+	display: table;
+	width: 43%;
+	height: auto;
+	margin: 0 auto;
+	backface-visibility: visible;
+	padding-top: 20px;
+	border-collapse: separate;
+	border-spacing: 22px;
+}
+#section7 div {
+	margin-top: 60px;
+}
+.inputs {
+	vertical-align: top;
+}
+.inputs input {
+	width: 250px;
+	height: 40px;
+	margin-bottom: 30px;
+	background-color: rgb(255, 255, 254, 0.4);
+	backface-visibility: visible;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+textarea {
+	width: 250px;
+	height: 190px;
+	background-color: rgb(255, 255, 254, 0.4);
+	backface-visibility: visible;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+#submit-btn {
+	width: 120px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 130%;
+	background-color: black;
+	color: white;
+}
+#gap {
+	height: 50px;
 }
