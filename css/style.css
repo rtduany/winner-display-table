@@ -39,15 +39,15 @@ nav a:hover {
 .container-fluid {
 	display: table;
 	width: 100%;
-	margin-top: 62px;
-	margin-bottom: 62px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 .container {
 	display: table;
 	width: 86.6%;
 	border-collapse: separate;
-	margin-top: 62px;
-	margin-bottom: 62px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 .row {
 	display: table-row;
@@ -287,4 +287,25 @@ textarea {
 }
 #gap {
 	height: 50px;
+}
+/* ******************************************************** footer-column section styles ************************************************ */
+#footer-txt {
+	width: 30%;
+	height: 140px;
+	margin: 0 auto;
+	text-align: center;
+}
+#footer-txt h3 {
+	margin-top: 60px;
+}
+#footer-txt p {
+	margin: 30px 0 50px 0;
+}
+footer {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 80%;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
